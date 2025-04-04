@@ -8,3 +8,16 @@
 - Once the query is received by the system:
   - It is processed by executing a **chain of operators**.
   - These operators run over the **vector collection** to retrieve the results.
+
+
+## Similarity Score
+
+A similarity score f : RD × RD → R maps two Ddimensional
+vectors, a and b, onto a scalar, f(a, b),
+with larger values indicating greater similarity.
+
+Here RD is Ddimensional vectors . 
+
+Example 
+
+!(3D Vector)[Query-Processing\assets\3d.png]
