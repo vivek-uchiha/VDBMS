@@ -20,4 +20,4 @@ Here RD is Ddimensional vectors .
 
 Example 
 
-<img src='Query-Processing\assets\3d.png' alt='3d vector' >
+<img src='assets\3d.png' alt='3d vector' >
