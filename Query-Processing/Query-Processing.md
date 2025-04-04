@@ -20,4 +20,4 @@ Here RD is Ddimensional vectors .
 
 Example 
 
-!(3D Vector)[Query-Processing\assets\3d.png]
+<img src='Query-Processing\assets\3d.png' alt='3d vector' >
