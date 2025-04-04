@@ -9,6 +9,7 @@
   - It is processed by executing a **chain of operators**.
   - These operators run over the **vector collection** to retrieve the results.
 
+---
 
 ## Similarity Score
 
@@ -27,6 +28,7 @@ Similarity Score is measured with the help of various distance algorithms .
 
 -  Two vectors are considered similar if the distance between them is close to 0.
 
+---
 
 # Axioms of Distance Metrics
 
