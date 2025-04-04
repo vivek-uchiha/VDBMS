@@ -32,34 +32,27 @@ Similarity Score is measured with the help of various distance algorithms .
 
 # Axioms of Distance Metrics
 
-For a function to be considered a **valid distance metric**, it must satisfy the following properties:
+**Triangular inequality** 
 
-### 1. Identity of Indiscernibles
+d(x,y)+d(y,z) >= d(x,z) - For any three elements x,y,z in the set, the sum of the distances between any two pairs must be greater than or equal to the distance between the third pair.
 
-- If the distance between two elements \( x \) and \( y \) is zero, then the two elements must be **identical**.
-\[
-d(x, y) = 0 \implies x = y
-\]
+**Symmetry**
 
-### 2. Symmetry
+d(x,y)=d(y,x) - The distance between x and y should be same , irespective of the orders in which they are present
 
-- The distance between two elements should be the same regardless of their order.
-\[
-d(x, y) = d(y, x)
-\]
+**Identity of indiscernibles**
 
-### 3. Triangle Inequality
+- If the distance between two elements \( x \) and \( y \) is zero, then the two elements must be **identical**.  
+- Mathematically:  
+  \[
+  d(x, y) = 0 \implies x = y
+  \]
+- This property ensures that the distance function distinguishes between different elements.
 
-- For any three elements \( x, y, z \), the distance between \( x \) and \( z \) must be less than or equal to the sum of distances between the other two pairs.
-\[
-d(x, y) + d(y, z) \geq d(x, z)
-\]
 
-### 4. Non-Negativity
 
-- Distances must always be **non-negative**.
-\[
-d(x, y) \geq 0
-\]
+**Non-negativity**
+
+d(x,y) >=0 The distance must be greater than 0.
 
 ---
